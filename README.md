@@ -1,7 +1,7 @@
 # TodoList v1
 
 
-useReducer() 함수 
+# useReducer() 함수 
 
 - 컴포넌트 내부에 새로운 State를 생성하는 React Hook 함수 입니다.
    
@@ -11,7 +11,7 @@ useReducer() 함수
 
 const [state, dispatch] = useReducer(reducer, 0);   
 
-0 : state 변수 초기값
-dispatch가 상태 변화를 요청하게 되고 useReducer가 상태 변화를 실제로 처리하게될 함수(reducer)를 호출합니다.
+- 0 : state 변수 초기값
+- dispatch가 상태 변화를 요청하게 되고 useReducer가 상태 변화를 실제로 처리하게될 함수(reducer)를 호출합니다.
    
    
